@@ -34,7 +34,7 @@ import org.apache.hadoop.util.ToolRunner;
  * 计算每个用户在不同的时间段不同的基站停留的时长
  * 输入参数 < input path > < output path > < date > < timepoint >
  * 参数示例： “/base /output 2012-09-12 09-17-24"
- * 意味着以“/base”为输入，"/output"为输出，指定计算2012年09月12日的数据，并分为00-07，07-17，17-24三个时段
+ * 意味着以“/base”为输入，"/output"为输出，指定计算2012年09月12日的数据，并分为00-09，09-17，17-24三个时段
  * 输出格式 “IMSI|CGI|TIMFLAG|STAY_TIME”
  */  
 public class BaseStationDataPreprocess extends Configured implements Tool 
